@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        var m = 'm';
+        var f = 'f';
+        sex = prompt('sexo m ou f ? ')
+        var a = prompt('Escreva sua ALTURA , formato : 1.70;  ')
+
+
+        if (sex == 'm' && a >= 1.80) {alert('Homem alto +1.80')}
+        else if (sex == m && a >= 1.70) { alert('Homem, medio 1.70 ate 1.79 : ' + a) }
+        else if (sex == m && a < 1.70) { alert('Homem ,baixinho : ' + a) }
+
+        
+
+        
+        else if  (sex == f && a >= 1.65) { alert('Muler alta 1.65+  : ' + a) }
+        else if (sex == f && a >= 1.55) { alert('Mulher,média 1.55 ate 164: ' + a) }
+        else if (sex == f && a < 1.55) { alert('Mulher baixa : ' + a) }
+
+        else { alert(`( ${sex} ) deve ser m ou f, ou ( ${a} ) Altura deve ser numeros e no formato ex : 1.70 `) }
+
+    </script>
+
+</body>
+
+</html>
